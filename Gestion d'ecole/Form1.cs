@@ -106,6 +106,21 @@ namespace Gestion_d_ecole
             titre.Text = "Gestoion des Notes";
             abriformpanel1(new FormNotes());
         }
+        public void desactiveDE()
+        {
+            btnUser.Enabled = false;
+            btnetudiant.Enabled = false;
+            btnnotes.Enabled = false;
+        }
+        public void desactiveAgent()
+        {
+            btnUser.Enabled = false;
+            btnclasse.Enabled = false;
+            btnmatiere.Enabled = false;
+            btnprofessuer.Enabled = false;
+            btnrapport.Enabled = false;
+            btncours.Enabled = false;
+        }
 
         private void MenuVertical_Paint(object sender, PaintEventArgs e)
         {

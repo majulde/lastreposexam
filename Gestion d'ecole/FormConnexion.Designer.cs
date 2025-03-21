@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormConnexion));
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnConnecter = new System.Windows.Forms.Button();
@@ -45,7 +46,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(13, 367);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 24);
+            this.label2.Size = new System.Drawing.Size(124, 20);
             this.label2.TabIndex = 17;
             this.label2.Text = "Mot de Passe";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -55,7 +56,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Location = new System.Drawing.Point(480, 563);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(151, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(129, 16);
             this.linkLabel1.TabIndex = 16;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "mot de passe oublié";
@@ -80,7 +81,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(13, 265);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(202, 24);
+            this.label3.Size = new System.Drawing.Size(173, 20);
             this.label3.TabIndex = 14;
             this.label3.Text = "Nom d\'utilisateur";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -106,7 +107,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Gestion_d_ecole.Properties.Resources._9187604;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = global::Gestion_d_ecole.Properties.Resources._91876041;
             this.pictureBox1.Location = new System.Drawing.Point(313, 30);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(176, 183);

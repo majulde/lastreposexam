@@ -45,6 +45,7 @@ namespace Gestion_d_ecole
                     db.Utilisateurs.Add(utilisateur);
                     db.SaveChanges();
                     MessageBox.Show("Utilisateur ajouté avec succès !");
+                    refresh();
                 }
                 catch (Exception ex)
                 {

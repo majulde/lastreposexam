@@ -69,7 +69,7 @@
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVertical.Location = new System.Drawing.Point(0, 0);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(70, 650);
+            this.MenuVertical.Size = new System.Drawing.Size(70, 690);
             this.MenuVertical.TabIndex = 0;
             this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuVertical_Paint);
             // 
@@ -120,7 +120,7 @@
             this.btnetudiant.Name = "btnetudiant";
             this.btnetudiant.Size = new System.Drawing.Size(250, 45);
             this.btnetudiant.TabIndex = 8;
-            this.btnetudiant.Text = "   Etudiant";
+            this.btnetudiant.Text = "             Etudiant";
             this.btnetudiant.UseVisualStyleBackColor = true;
             this.btnetudiant.Click += new System.EventHandler(this.btnetudiant_Click);
             // 
@@ -137,7 +137,7 @@
             this.btnmatiere.Name = "btnmatiere";
             this.btnmatiere.Size = new System.Drawing.Size(250, 45);
             this.btnmatiere.TabIndex = 7;
-            this.btnmatiere.Text = "   Matiere";
+            this.btnmatiere.Text = "             Matiere";
             this.btnmatiere.UseVisualStyleBackColor = true;
             this.btnmatiere.Click += new System.EventHandler(this.btnmatiere_Click);
             // 
@@ -154,7 +154,7 @@
             this.btncours.Name = "btncours";
             this.btncours.Size = new System.Drawing.Size(250, 45);
             this.btncours.TabIndex = 6;
-            this.btncours.Text = "   Cours";
+            this.btncours.Text = "             Cours";
             this.btncours.UseVisualStyleBackColor = true;
             this.btncours.Click += new System.EventHandler(this.btncours_Click);
             // 
@@ -171,7 +171,7 @@
             this.btnclasse.Name = "btnclasse";
             this.btnclasse.Size = new System.Drawing.Size(250, 45);
             this.btnclasse.TabIndex = 5;
-            this.btnclasse.Text = "   Classe";
+            this.btnclasse.Text = "             Classe";
             this.btnclasse.UseVisualStyleBackColor = true;
             this.btnclasse.Click += new System.EventHandler(this.btnclasse_Click);
             // 
@@ -188,7 +188,7 @@
             this.btnprofessuer.Name = "btnprofessuer";
             this.btnprofessuer.Size = new System.Drawing.Size(250, 45);
             this.btnprofessuer.TabIndex = 4;
-            this.btnprofessuer.Text = "   Professeur";
+            this.btnprofessuer.Text = "             Professeur";
             this.btnprofessuer.UseVisualStyleBackColor = true;
             this.btnprofessuer.Click += new System.EventHandler(this.btnprofessuer_Click);
             // 
@@ -205,7 +205,7 @@
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(250, 45);
             this.btnUser.TabIndex = 3;
-            this.btnUser.Text = "   Utilisateur";
+            this.btnUser.Text = "             Utilisateur";
             this.btnUser.UseVisualStyleBackColor = true;
             this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
@@ -250,7 +250,7 @@
             this.barretitolo.Dock = System.Windows.Forms.DockStyle.Top;
             this.barretitolo.Location = new System.Drawing.Point(70, 0);
             this.barretitolo.Name = "barretitolo";
-            this.barretitolo.Size = new System.Drawing.Size(1307, 50);
+            this.barretitolo.Size = new System.Drawing.Size(1512, 50);
             this.barretitolo.TabIndex = 1;
             this.barretitolo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.barretitolo_MouseDown);
             // 
@@ -293,17 +293,18 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(70, 50);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1307, 600);
+            this.panelContainer.Size = new System.Drawing.Size(1512, 640);
             this.panelContainer.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1377, 650);
+            this.ClientSize = new System.Drawing.Size(1582, 690);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.barretitolo);
             this.Controls.Add(this.MenuVertical);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Kaay jang School";
             this.MenuVertical.ResumeLayout(false);

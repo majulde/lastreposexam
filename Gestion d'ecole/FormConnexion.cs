@@ -25,7 +25,7 @@ namespace Gestion_d_ecole
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e) 
         {
 
         }
@@ -65,10 +65,21 @@ namespace Gestion_d_ecole
                     // Si l'utilisateur est trouvé, afficher son rôle ou une autre action
                     MessageBox.Show($"Bienvenue {utilisateur.NomUtilisateur}, vous êtes un {utilisateur.Role}");
                     Form1 form1 = new Form1();
+                    if (utilisateur.Role == "DE")
+                    {
+                        form1.desactiveDE();
+                    }
+                    if (utilisateur.Role == "Agent")
+                    {
+                        form1.desactiveAgent();
+                    }
                     form1.ShowDialog();
-
                     // Fermer le formulaire de connexion (FormLogin)
-                    this.Hide(); // Utilise Hide() pour garder la possibilité de revenir si nécessaire
+                    
+                    // this.Close(); // Fermer le formulaire de connexion après ouverture de Form1
+                    //form1.Show(); // Ouvrir Form1 avant de fermer le formulaire de connexion
+                    //this.Hide(); // Utilise Hide() pour garder la possibilité de revenir si nécessaire
+                    
                 }
                 else
                 {

@@ -83,6 +83,16 @@ namespace Gestion_d_ecole.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _91876041 {
+            get {
+                object obj = ResourceManager.GetObject("91876041", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ajouter_un_utilisateur {
             get {
                 object obj = ResourceManager.GetObject("ajouter-un-utilisateur", resourceCulture);
